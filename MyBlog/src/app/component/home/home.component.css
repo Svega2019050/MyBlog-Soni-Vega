@@ -1,0 +1,25 @@
+.container{
+    margin-top: 2rem;
+}
+
+
+.rowItems{
+    margin-bottom: 2rem;
+    padding: 0;
+}
+.rowItems:last-child{
+    margin-bottom: 5rem;
+}
+
+.rowItems img:hover {
+    transform: scaleX(-1);
+}
+
+h1{
+    text-align: center;
+}
+
+.rowItems[_ngcontent-vne-c45] {
+    margin-bottom: 2rem;
+    padding: inherit; 
+}
