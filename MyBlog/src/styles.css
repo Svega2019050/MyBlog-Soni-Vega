@@ -1,3 +1,31 @@
 img{
     max-width: 100%;
 }
+
+.container{
+    margin-bottom: 6rem;
+}
+
+.text-center{
+    align-items: center;
+    text-align: center;
+}
+
+.align-left {
+    margin-left: 1rem;
+    float: left;
+    text-align: left;
+}
+
+.align-right {
+    margin-right: 1rem;
+    float: right;
+    text-align: right;
+}
+
+
+@media (max-width: 600px) {
+    .align-right {
+        float: none;
+    }
+}

@@ -7,9 +7,6 @@
     margin-bottom: 2rem;
     padding: 0;
 }
-.rowItems:last-child{
-    margin-bottom: 5rem;
-}
 
 .rowItems img:hover {
     transform: scaleX(-1);
