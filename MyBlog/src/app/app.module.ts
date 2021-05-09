@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms'; //formularios 
-import  {  PdfViewerModule  }  from  'ng2-pdf-viewer';
+
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -26,8 +26,7 @@ import { FooterComponent } from './component/footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
-    PdfViewerModule
+    FormsModule
 
   ],
   providers: [],
