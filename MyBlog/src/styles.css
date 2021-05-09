@@ -4,6 +4,7 @@ img{
 
 .container{
     margin-bottom: 6rem;
+    max-width: 95%;
 }
 
 .text-center{
@@ -28,4 +29,21 @@ img{
     .align-right {
         float: none;
     }
+}
+.team-content{
+    margin-bottom: 1rem;
+}
+pdf-viewer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(5px 5px 5px #222222);
+}
+  
+textarea {
+    margin-top: 15px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
