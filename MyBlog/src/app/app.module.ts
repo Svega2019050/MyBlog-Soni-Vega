@@ -11,7 +11,7 @@ import { NavBarComponent } from './component/nav-bar/nav-bar.component';
 import { NotFoundComponent } from './component/not-found/not-found.component';
 import { PerfilComponent } from './component/perfil/perfil.component';
 import { FooterComponent } from './component/footer/footer.component';
-import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
+
 
 
 @NgModule({
@@ -27,8 +27,8 @@ import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    PdfViewerModule,
-    NgxExtendedPdfViewerModule
+    PdfViewerModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
