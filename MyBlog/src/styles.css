@@ -44,4 +44,96 @@ img{
 .hit-the-floor {
     text-align: center;
 }
-   
+
+.container{
+    margin-top: 2rem;
+}
+
+
+.rowItems{
+    margin-bottom: 2rem;
+    padding: 0;
+}
+
+.rowItems img:hover {
+    transform: scaleX(-1);
+}
+
+h1{
+    text-align: center;
+}
+
+.rowItems[_ngcontent-vne-c45] {
+    margin-bottom: 2rem;
+    padding: inherit; 
+}
+.badge p{
+    font-size: 1rem;
+    text-align: justify;
+    color: black;
+    font-weight: 100;
+    line-height: 1.5;
+}
+h3{
+    padding: .5rem;
+}
+.modal-body{
+    max-height: 45rem;
+    overflow: scroll;
+}
+.modal-footer{
+    justify-content: space-between;
+}
+
+ 
+.t-stroke {
+color: transparent;
+-moz-text-stroke-width: 2px;
+-webkit-text-stroke-width: 2px;
+-moz-text-stroke-color: #000000;
+-webkit-text-stroke-color: #000000;
+}
+
+.img-container {
+    position: relative;
+}
+  
+.image {
+    display: block;
+    width: 100%;
+    height: 15rem;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.img-container:hover .overlay {
+    height: 100%;
+}
+
+.text {
+    white-space: nowrap; 
+    color: white;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.card-text{
+    text-align: justify;
+}
+ 
+ 

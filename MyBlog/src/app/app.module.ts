@@ -11,6 +11,8 @@ import { NavBarComponent } from './component/nav-bar/nav-bar.component';
 import { NotFoundComponent } from './component/not-found/not-found.component';
 import { PerfilComponent } from './component/perfil/perfil.component';
 import { FooterComponent } from './component/footer/footer.component';
+import { PrimerBimestreComponent } from './component/home/primer-bimestre/primer-bimestre.component';
+import { SegundoBimestreComponent } from './component/home/segundo-bimestre/segundo-bimestre.component';
 
 
 
@@ -22,6 +24,8 @@ import { FooterComponent } from './component/footer/footer.component';
     NotFoundComponent,
     PerfilComponent,
     FooterComponent,
+    PrimerBimestreComponent,
+    SegundoBimestreComponent,
   ],
   imports: [
     BrowserModule,
