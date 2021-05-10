@@ -10,6 +10,8 @@ export class PrimerBimestreComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
+  
 
 }

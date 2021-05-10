@@ -16,6 +16,7 @@ import { SegundoBimestreComponent } from './component/home/segundo-bimestre/segu
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,7 @@ import { SegundoBimestreComponent } from './component/home/segundo-bimestre/segu
     PerfilComponent,
     FooterComponent,
     PrimerBimestreComponent,
-    SegundoBimestreComponent,
+    SegundoBimestreComponent
   ],
   imports: [
     BrowserModule,
