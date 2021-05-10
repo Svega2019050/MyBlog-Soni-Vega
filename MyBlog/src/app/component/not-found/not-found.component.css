@@ -1,0 +1,12 @@
+
+h1{
+    font-size: 10rem;
+}
+   
+.spinner-border{
+    height: 10rem;
+    width: 10rem;
+}
+.hit-the-floor{
+    display: flex;
+}
